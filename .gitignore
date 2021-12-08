@@ -1,0 +1,13 @@
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+yarn-error.log
+
+# Personal
+main/
+.deployment
+apiKey.key
+
+# Vscode
+.vscode/

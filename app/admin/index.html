@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,|Google+Sans:400,500&lang=en" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://thebrokenxd.github.io/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://thebrokenxd.github.io/favicons/apple-touch-icon.png" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="login-card">
+        <div class="login-box">
+            <h1>Sign in</h1>
+            <h3>Login to manage your account</h3>
+            <form>
+                <input type="text" id="username" name="username" placeholder="&#xf007     Username" required class="user-cls" autocomplete="off">
+                <input type="password" id="password" name="password" placeholder="&#xf084     Password" required class="pwd-cls">
+                <input id="adminLogin" type="submit" name="login" class="login login-submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <div id="errorModal" class="hide">
+        <span id="errorModalText"></span>
+    </div>
+    <div id="successModal" class="hide">
+        <span id="successModalText"></span>
+    </div>
+    
+    <script src="/scripts/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--meta tags-->
+
+    <meta name="description" content="Allen's Bots is the only site to purchase reliable bots on Telegram. All of my bots come with a lifetime license, free updates for life, and technical support.">
+    <meta name="keywords" content="Telegram, bots, telegram-bots, allen, tg, tg-bots">
+    <meta name="author" content="Allen">
+
+    <!--
+        Site made by Noah and Akash
+        noah - https://github.com/TheBrokenXD
+        akash - https://github.com/BLUE-DEVIL1134
+        happy shopping :)
+    -->
+  
+    <link href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,|Google+Sans:400,500&lang=en" rel="stylesheet">
+    <link rel="shortcut icon" href="https://thebrokenxd.github.io/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://thebrokenxd.github.io/favicons/apple-touch-icon.png" />
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/scripts/user.js"></script>
+    <title>AllentBots | User</title>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="../index.html"><img src="../assets/logo.svg" class="logo-primary" alt="Logo"></a>
+    </div>
+    
+    <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+    <label for="page-nav-toggle">
+        <div class="userAccount"></div>
+        <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+            <g class="icon-group">
+            <g class="icon--menu">
+                <path d="M 6 0 L 54 0" />
+                <path d="M 6 15 L 54 15" />
+                <path d="M 6 30 L 54 30" />
+            </g>
+            <g class="icon--close">
+                <path d="M 15 0 L 45 30" />
+                <path d="M 15 30 L 45 0" />
+            </g>
+            </g>
+        </svg>
+    </label>
+
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="user-container">
+
+        <div class="titles-user">
+            <h1>Dashboard</h1>
+            <h3>Your payments</h3>
+        </div>
+
+        <div id="mePayments" class="user-payments"></div>
+
+        <div class="user-assets">
+
+            <div class="user-options">
+                <button onclick="logout(event);" class="user-btn">Logout</button>
+                <a href="./myLicenses.html"><button class="user-btn">Permanent Assets</button></a>
+            </div>
+
+            <div class="user-bots" id="successfulTxs">
+                <h2>Successful Transactions</h2>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="about-footer">
+        <div class="svg-abt-footer">
+            <a href="https://sellix.io/AllensBots" target="_blank"><i class="fab fa-sellcast"></i></a>
+            <a href="https://www.youtube.com/channel/UC6tDheIp5d1Tfaza-mD2mLQ" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/allensvouches" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+        <p>COPYRIGHT @ 2021 ALLEN</p>
+    </footer>
+
+    <div class="nope hide">
+        <div class="txsTable hide"></div>
+    </div>
+</body>
+</html>

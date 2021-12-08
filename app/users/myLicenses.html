@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--meta tags-->
+
+    <meta name="description" content="Allen's Bots is the only site to purchase reliable bots on Telegram. All of my bots come with a lifetime license, free updates for life, and technical support.">
+    <meta name="keywords" content="Telegram, bots, telegram-bots, allen, tg, tg-bots">
+    <meta name="author" content="Allen">
+
+    <!--
+        Site made by Noah and Akash
+        noah - https://github.com/TheBrokenXD
+        akash - https://github.com/BLUE-DEVIL1134
+        happy shopping :)
+    -->
+  
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,|Google+Sans:400,500&lang=en" rel="stylesheet">
+    <link rel="shortcut icon" href="https://thebrokenxd.github.io/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://thebrokenxd.github.io/favicons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Allens' Bot | Licenses</title>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="../index.html"><img src="../assets/logo.svg" class="logo-primary" alt="Logo"></a>
+    </div>
+
+    <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+    <label for="page-nav-toggle">
+        <div class="userAccount"></div>
+        <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+            <g class="icon-group">
+            <g class="icon--menu">
+                <path d="M 6 0 L 54 0" />
+                <path d="M 6 15 L 54 15" />
+                <path d="M 6 30 L 54 30" />
+            </g>
+            <g class="icon--close">
+                <path d="M 15 0 L 45 30" />
+                <path d="M 15 30 L 45 0" />
+            </g>
+            </g>
+        </svg>
+    </label>
+
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div style="display: none;" id="noLicensesDialog" title="No Licenses?">
+        <p>
+            <span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span>
+            Sorry, but you have no licenses right now. how about buying some?
+        </p>
+    </div>
+    
+    <div id="myLicensesList"></div>
+
+    <script src="../scripts/myLicenses.js"></script>
+
+</body>
+</html>

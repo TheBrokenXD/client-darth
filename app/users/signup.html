@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--meta tags-->
+
+    <meta name="description" content="Allen's Bots is the only site to purchase reliable bots on Telegram. All of my bots come with a lifetime license, free updates for life, and technical support.">
+    <meta name="keywords" content="Telegram, bots, telegram-bots, allen, tg, tg-bots">
+    <meta name="author" content="Allen">
+
+    <!--
+        Site made by Noah and Akash
+        noah - https://github.com/TheBrokenXD
+        akash - https://github.com/BLUE-DEVIL1134
+        happy shopping :)
+    -->
+  
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,|Google+Sans:400,500&lang=en" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://thebrokenxd.github.io/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://thebrokenxd.github.io/favicons/apple-touch-icon.png" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/scripts/signup.js"></script>
+    <title>AllenBots | SignUp</title>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="../index.html"><img src="../assets/logo.svg" class="logo-primary" alt="Logo"></a>
+    </div>
+
+    <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+    <label for="page-nav-toggle">
+        <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+            <g class="icon-group">
+            <g class="icon--menu">
+                <path d="M 6 0 L 54 0" />
+                <path d="M 6 15 L 54 15" />
+                <path d="M 6 30 L 54 30" />
+            </g>
+            <g class="icon--close">
+                <path d="M 15 0 L 45 30" />
+                <path d="M 15 30 L 45 0" />
+            </g>
+            </g>
+        </svg>
+    </label>
+
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="signup-card">
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-control" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input-control" required>
+            </div>
+            <div class="form-group">
+                <label for="con-password">Confirm Password</label>
+                <input type="password" id="con-password" class="input-control" required>
+            </div>
+            <button onclick="signUp(event)" type="button" class="primary-btn"><span>Sign Up</span></button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="align-footer">
+            <a href="../services.html" class="footer-link">view services</a>
+            <img src="../assets/footer-line.svg" class="svg-line" alt="line">
+        </div>
+    </footer>
+
+</body>
+</html>

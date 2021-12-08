@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--meta tags-->
+
+    <meta name="description" content="Allen's Bots is the only site to purchase reliable bots on Telegram. All of my bots come with a lifetime license, free updates for life, and technical support.">
+    <meta name="keywords" content="Telegram, bots, telegram-bots, allen, tg, tg-bots">
+    <meta name="author" content="Allen">
+
+    <!--
+        Site made by Noah and Akash
+        noah - https://github.com/TheBrokenXD
+        akash - https://github.com/BLUE-DEVIL1134
+        happy shopping :)
+    -->
+  
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,|Google+Sans:400,500&lang=en" rel="stylesheet">
+    <link rel="shortcut icon" href="https://thebrokenxd.github.io/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://thebrokenxd.github.io/favicons/apple-touch-icon.png" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Allens' Bot</title>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="../index.html"><img src="../assets/logo.svg" class="logo-primary" alt="Logo"></a>
+    </div>
+
+    <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+    <label for="page-nav-toggle">
+        <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+            <g class="icon-group">
+            <g class="icon--menu">
+                <path d="M 6 0 L 54 0" />
+                <path d="M 6 15 L 54 15" />
+                <path d="M 6 30 L 54 30" />
+            </g>
+            <g class="icon--close">
+                <path d="M 15 0 L 45 30" />
+                <path d="M 15 30 L 45 0" />
+            </g>
+            </g>
+        </svg>
+    </label>
+
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="twonav">
+
+        <div class="center-twonav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../services.html">Other Bots</a></li>
+                <li><a href="https://t.me/allensvouches">Reviews</a></li>
+            </ul>
+        </div>
+        <div class="right-twonav">
+            <ul>
+                <li><a href="../shop/cart.html"><i class="fas fa-shopping-cart cart-icon"></i></a></li>
+                <li><a href="../users/user.html">My account</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="bot-shop">
+
+        <div class="bot-image"><img src="../assets/img/mass-dm bot.png" alt="Mass DM Bot"></div>
+        <div class="bot-product">
+            <div class="product-title">Mass DM Bot</div>
+            <span>$349</span>
+            <div class="product-lildesc">This is a bot</div>
+            <div class="add-to-cart">
+                <a><button onclick="addToCart(event, '0xef1');" class="add-cart-btn">Add to cart</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="informations">
+
+        <div class="warpper">
+
+            <input class="radio" id="one" name="group" type="radio" checked>
+            <input class="radio" id="two" name="group" type="radio">
+            <div class="tabs">
+                <label class="tab" id="one-tab" for="one">Description</label>
+                <label class="tab" id="two-tab" for="two">More information</label>
+            </div>
+
+            <div class="panels">
+                <div class="panel" id="one-panel">
+                    <div class="panel-title">Mass DM Bot</div>
+                    <p>Now you may talk directly to prospective customers!</p>
+                </div>
+                <div class="panel" id="two-panel">
+                    <div class="panel-title">Mass DM Bot - Description</div>
+                    <p>Choose a competitor's group and mass DM the crowd. This bot will automatically join your competitor's group and DM everyone in it</p>
+                </div>
+            </div>
+
+          </div>
+
+    </div>
+
+    <div class="related-bots">
+
+        <p>Related Products</p>
+
+        <div class="rel-products">
+
+            <div class="rel-bot" data-scroll>
+                <div class="rel-div"><img src="../assets/img/unlimited-account trick.png" alt="Unlimited Account Trick"></div>
+                <div class="rel-desc">
+                    <div class="rel-desc-left">
+                        <div class="rel-bot-title"><a href="uacc-trick.html">Unlimited Accounts</a></div>
+                        <div class="rel-bot-price">$69</div>
+                    </div>
+                    <div class="rel-desc-right">
+                        <a href="#"><button class="add-cart-btn"><i class="fas fa-shopping-cart cart-btn-icon"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rel-bot" data-scroll>
+                <div class="rel-div"><img src="../assets/img/hard-shill bot.png" alt="Hard Shillbot"></div>
+                <div class="rel-desc">
+                    <div class="rel-desc-left">
+                        <div class="rel-bot-title"><a href="hs-bot.html">Hard Shillbot</a></div>
+                        <div class="rel-bot-price">$599</div>
+                    </div>
+                    <div class="rel-desc-right">
+                        <a href="#"><button class="add-cart-btn"><i class="fas fa-shopping-cart cart-btn-icon"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rel-bot" data-scroll>
+                <div class="rel-div"><img src="../assets/img/member-scrape bot.png" alt="Member Scrape Bot"></div>
+                <div class="rel-desc">
+                    <div class="rel-desc-left">
+                        <div class="rel-bot-title"><a href="ms-bot.html">Member Scraper Bot</a></div>
+                        <div class="rel-bot-price">$299</div>
+                    </div>
+                    <div class="rel-desc-right">
+                        <a><button onclick="addToCart(event, '0xef3');" class="add-cart-btn"><i class="fas fa-shopping-cart cart-btn-icon"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="about-footer" data-scroll>
+        <div class="svg-abt-footer">
+            <a href="https://sellix.io/AllensBots" target="_blank"><i class="fab fa-sellcast"></i></a>
+            <a href="https://www.youtube.com/channel/UC6tDheIp5d1Tfaza-mD2mLQ" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/allensvouches" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+        <p>COPYRIGHT @ 2021 ALLEN</p>
+    </footer>
+
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../scripts/noah-core.js"></script>
+    <script src="/scripts/addToCart.js"></script>
+
+    <script>
+        ScrollOut({
+            once: true,
+            threshold: .4
+        });
+
+        anime({
+            targets: ['div.twonav', 'div.bot-shop', 'div.warpper'],
+            translateY: [60, 0],
+            easing: 'easeOutCubic'
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "0xef1": {
+        "name": "DM Spam Bot",
+        "ammount": 349,
+        "assetPathFile": "dmsbot.zip",
+        "description": "Mass DMs' members of the specified telegram group"
+    },
+    "0xef2": {
+        "name": "Hard Shill Bot",
+        "ammount": 599,
+        "assetPathFile": "hsbot.zip",
+        "description": "Shills your message infinitely in telegram groups"
+    },
+    "0xef3": {
+        "name": "Member Scrapper Bot",
+        "ammount": 299,
+        "assetPathFile": "msbot.zip",
+        "description": "Get unlimited real members for your telegram group"
+    },
+    "0xef4": {
+        "name": "Reddit Shill Bot",
+        "ammount": 399,
+        "assetPathFile": "rsbot.zip",
+        "description": "Shills your messages to thousands of subreddits"
+    },
+    "0xef5": {
+        "name": "Unlimited Accounts Trick",
+        "ammount": 69,
+        "assetPathFile": "uatbot.zip",
+        "description": "Trick to get telegram accounts at cheap rates"
+    }
+}
